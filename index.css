@@ -55,7 +55,7 @@ p {
 }
 
 #contain {
-    background-image: url(../IMAGE/showcase.jpg);
+    background-image: url(./IMAGE/showcase.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -118,7 +118,7 @@ p {
 #home-info .info-img {
     /* float: left; */
     /* width: 50%; */
-    background-image: url('../IMAGE/photo-1.jpg');
+    background-image: url(./IMAGE/photo-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: left; */
@@ -270,7 +270,7 @@ footer {
 
 #text-info {
     height: 700px;
-    background-image: url(../IMAGE/test-bg.jpg);
+    background-image: url(./IMAGE/test-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
