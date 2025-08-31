@@ -426,6 +426,10 @@ footer {
     font-size: 20px;
 }
 
+#homes {
+    margin-bottom: 30px;
+}
+
 #homes h2,
 h3,
 p {
@@ -449,171 +453,34 @@ p {
     font-size: 20px;
 }
 
-.room-container-1 {
-    /* display: flex; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
 }
 
-.room-container-1 img {
+
+.room-container img {
     margin-top: 10px;
 }
 
-.room-container-1 .room-1,
-.room-2,
-.room-3,
+.room-container .rooms,
 h4 {
     font-size: 20px;
     color: #444;
 }
 
-.room-container-1 .room-1,
-.room-2,
-.room-3,
+.room-container .rooms,
 p {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.room-container-2 {
-    /* display: flex; */
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
 
-.room-container-2 img {
-    margin-top: 10px;
-}
-
-.room-container-2 .room-4,
-.room-5,
-.room-6,
-h4 {
-    font-size: 20px;
-    color: #444;
-}
-
-.room-container-2 .room-4,
-.room-5,
-.room-6,
-p {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 19px;
-}
-
-.room-container-3 {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.room-container-3 img {
-    margin-top: 10px;
-}
-
-.room-container-3 .room-7,
-.room-8,
-.room-9,
-h4 {
-    font-size: 20px;
-    color: #444;
-}
-
-.room-container-3 .room-7,
-.room-8,
-.room-9,
-p {
-    text-align: center;
-}
-
-.room-container-4 {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.room-container-4 img {
-    margin-top: 10px;
-}
-
-.room-container-4 .room-10,
-.room-11,
-.room-12,
-h4 {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.room-container-4 .room-10,
-.room-11,
-.room-12,
-p {
-    text-align: center;
-}
-
-.room-container-5 {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.room-container-5 img {
-    margin-top: 10px;
-}
-
-.room-container-5 .room-13,
-.room-14,
-.room-15,
-h4 {
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.room-container-5 .room-13,
-.room-14,
-.room-15,
-p {
-    align-items: center;
-}
-
-.room-container-6 {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.room-container-6 img {
-    margin-top: 10px;
-}
-
-.room-container-6 .room-16,
-.room-17,
-.room-18,
-h4 {
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-}
 
 @media (max-width: 600px) {
     #navbar {
